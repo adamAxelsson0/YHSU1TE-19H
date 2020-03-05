@@ -6,11 +6,15 @@ Can add a song to a playlist.
 New playlist has empty song list.
 Song added to playlist is same object instance.
 Songs by abba are not allowed in the playlist.
+Playlist can be cleared, removing all songs.
 Duplicate song titles are silently ignored.
 Should be able to remove duplicates from playlist where artist and title are identical.
 Playlist automatically adds current year to start of title.
 Playlist is kept sorted by artist then title.
+Songs with duration over 8 minutes are rejected.
+Can retrieved a list of unique artists in the playlist.
 
 Bonus:
 
 Adding song raises song added event.
+Removing song raises song removed event.
