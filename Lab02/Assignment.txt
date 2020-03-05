@@ -7,7 +7,7 @@ The booking should have a 50% discount for children under 12.
 The booking should be associated with a location.
 The user must be able to cancel a booking.
 The booking name should be the user name + the location name.
-The booking must be added to the user booking list.
+The booking must be added to the user recent booking list.
 The user must not be able to cancel a booking if there is less than one hour remaining before the start time.
 The booking name for companies should be company name + company reg no + location name.
 
