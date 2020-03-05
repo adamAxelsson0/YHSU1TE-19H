@@ -1,0 +1,16 @@
+The booking should have a duration.
+The booking should have a price.
+The booking should apply a user discount.
+The booking should be free for pensioners.
+The booking should have a 20% discount for teenagers.
+The booking should have a 50% discount for children under 12.
+The booking should be associated with a location.
+The user must be able to cancel a booking.
+The booking name should be the user name + the location name.
+The user must not be able to cancel a booking if there is less than one hour remaining before the start time.
+The booking name for companies should be company name + company reg no + location name.
+
+Bonus:
+
+Booking price for bookings made by companies should not include VAT.
+Bookings must coincide with the opening hours of the location.
