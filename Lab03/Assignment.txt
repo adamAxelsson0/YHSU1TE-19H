@@ -1,0 +1,19 @@
+Solve the following requirements using Classical School or Inside Out.
+If you discover the need for a collaborator that doesn't exist yet, create it first and apply relevant tests to it.
+Then proceed with the initial requirement.
+
+Use simple objects as collaborators here. I don't expect you to actually send emails or collect payments!!
+
+The booking should collect payment from the users bank.
+If the payment is unsuccessful, then the booking should not be accepted.
+If the booking is cancelled up to 30 days before the booking date, the money should be refunded.
+If the booking is cancelled in the last 7 days before the booking, 50 percent of the booking price should be refunded.
+When the booking user supplies an email, a booking confirmation should be sent to the user.
+When the booking user supplies an email and a payment fails, a failed payment email should be sent to the user.
+When the booking user supplies an email and a cancellation is successful, a cancellation email should be sent to the user.
+When the booking user supplies an email and a cancellation fails, an explanation email should be sent to the user.
+
+
+
+
+
