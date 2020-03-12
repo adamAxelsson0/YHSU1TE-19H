@@ -1,4 +1,3 @@
-Solve the following requirements using Classical School or Inside Out.
 If you discover the need for a collaborator that doesn't exist yet, create it first and apply relevant tests to it.
 Then proceed with the initial requirement.
 
