@@ -6,14 +6,12 @@ Use simple objects as collaborators here. I don't expect you to actually send em
 
 The booking should collect payment from the users bank.
 If the payment is unsuccessful, then the booking should not be accepted.
-If the booking is cancelled up to 30 days before the booking date, the money should be refunded.
-If the booking is cancelled in the last 7 days before the booking, 50 percent of the booking price should be refunded.
+If the booking is cancelled up to 60 days before the booking date, the money should be refunded.
+If the booking is cancelled up to 30 days before the booking, 75 percent of the booking price should be refunded.
+If the booking is cancelled up to 7 days before the booking, 50 percent of the booking price should be refunded.
 When the booking user supplies an email, a booking confirmation should be sent to the user.
 When the booking user supplies an email and a payment fails, a failed payment email should be sent to the user.
 When the booking user supplies an email and a cancellation is successful, a cancellation email should be sent to the user.
 When the booking user supplies an email and a cancellation fails, an explanation email should be sent to the user.
-
-
-
-
-
+Successul bookings should be placed on a message bus for distribution to integration partners (e.g hotel).
+Cancelled bookings should be placed on a message bus for distribution to our integration partners.
