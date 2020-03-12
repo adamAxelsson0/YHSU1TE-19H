@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+  <Modules>
+    <Module hash="E723D787-2B76-4A76-893E-747F9AED2AB8">
+      <ModulePath>Lab02.Domain.dll</ModulePath>
+      <ModuleTime>2020-03-12T07:48:42</ModuleTime>
+      <ModuleName>Lab02.Domain</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>
