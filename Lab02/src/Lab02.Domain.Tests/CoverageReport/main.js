@@ -224,6 +224,16 @@ var assemblies = [
   {
     "name": "Lab02.Domain",
     "classes": [
+      { "name": "Lab02.Domain.Booking", "rp": "Lab02.Domain_Booking.htm", "cl": 37, "ucl": 1, "cal": 38, "tl": 72, "ct": "LineCoverage", "mc": "-", "cb": 15, "tb": 16, "lch": [], "bch": [], "hc": [] },
+      { "name": "Lab02.Domain.Clock", "rp": "Lab02.Domain_Clock.htm", "cl": 5, "ucl": 0, "cal": 5, "tl": 72, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Lab02.Domain.Company", "rp": "Lab02.Domain_Company.htm", "cl": 5, "ucl": 0, "cal": 5, "tl": 12, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Lab02.Domain.Currency", "rp": "Lab02.Domain_Currency.htm", "cl": 7, "ucl": 2, "cal": 9, "tl": 19, "ct": "LineCoverage", "mc": "-", "cb": 4, "tb": 4, "lch": [], "bch": [], "hc": [] },
+      { "name": "Lab02.Domain.Location", "rp": "Lab02.Domain_Location.htm", "cl": 5, "ucl": 0, "cal": 5, "tl": 13, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Lab02.Domain.Money", "rp": "Lab02.Domain_Money.htm", "cl": 10, "ucl": 1, "cal": 11, "tl": 22, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Lab02.Domain.Party", "rp": "Lab02.Domain_Party.htm", "cl": 6, "ucl": 0, "cal": 6, "tl": 18, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "Lab02.Domain.Percent", "rp": "Lab02.Domain_Percent.htm", "cl": 12, "ucl": 0, "cal": 12, "tl": 24, "ct": "LineCoverage", "mc": "-", "cb": 4, "tb": 4, "lch": [], "bch": [], "hc": [] },
+      { "name": "Lab02.Domain.Price", "rp": "Lab02.Domain_Price.htm", "cl": 0, "ucl": 7, "cal": 7, "tl": 14, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Lab02.Domain.User", "rp": "Lab02.Domain_User.htm", "cl": 5, "ucl": 0, "cal": 5, "tl": 15, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
 
