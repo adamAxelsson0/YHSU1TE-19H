@@ -26,5 +26,10 @@ Bonus:
 
 Switch out FakeItEasy for either Moq or NSubstitute and solve the same
 assignment.
+
+https://nsubstitute.github.io/
+
+https://documentation.help/Moq/
+
 Compare the readability and ease with which you could
 achieve the correct assertion.
