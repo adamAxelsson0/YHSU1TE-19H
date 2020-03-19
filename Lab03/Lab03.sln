@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EE398660-7F3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab03.Domain", "src\Lab03.Domain\Lab03.Domain.csproj", "{1657EC0A-49DC-41B3-A6A0-8C491F1ED50D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab03.Domain.Tests", "src\Lab03.Domain.Tests\Lab03.Domain.Tests.csproj", "{99F40AAD-60B8-4345-B8BF-07943342F0D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +34,21 @@ Global
 		{1657EC0A-49DC-41B3-A6A0-8C491F1ED50D}.Release|x64.Build.0 = Release|Any CPU
 		{1657EC0A-49DC-41B3-A6A0-8C491F1ED50D}.Release|x86.ActiveCfg = Release|Any CPU
 		{1657EC0A-49DC-41B3-A6A0-8C491F1ED50D}.Release|x86.Build.0 = Release|Any CPU
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6}.Debug|x64.Build.0 = Debug|Any CPU
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6}.Debug|x86.Build.0 = Debug|Any CPU
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6}.Release|x64.ActiveCfg = Release|Any CPU
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6}.Release|x64.Build.0 = Release|Any CPU
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6}.Release|x86.ActiveCfg = Release|Any CPU
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1657EC0A-49DC-41B3-A6A0-8C491F1ED50D} = {EE398660-7F30-46E9-93C2-50E3783D465D}
+		{99F40AAD-60B8-4345-B8BF-07943342F0D6} = {EE398660-7F30-46E9-93C2-50E3783D465D}
 	EndGlobalSection
 EndGlobal
