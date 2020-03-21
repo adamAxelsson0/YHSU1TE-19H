@@ -4,11 +4,10 @@ e.g.
 Confirm1
 Confirm2
 
-Docs: https://fakeiteasy.readthedocs.io/
-
 Try to verify using the most appropriate assertion available.
 Remember to use TDD and write the test first, starting with the assertion.
 If any task is unclear or you need a hint, ask the product owner (me!).
+
 
 Confirming a booking should take a payment
 Confirming a booking should take two payments both for amount 50
@@ -26,10 +25,5 @@ Bonus:
 
 Switch out FakeItEasy for either Moq or NSubstitute and solve the same
 assignment.
-
-https://nsubstitute.github.io/
-
-https://documentation.help/Moq/
-
 Compare the readability and ease with which you could
 achieve the correct assertion.
