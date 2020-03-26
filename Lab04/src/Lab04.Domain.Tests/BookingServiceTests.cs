@@ -17,12 +17,12 @@ namespace Lab04.Domain.Tests
             var sut = new BookingService(bookingRepository);
 
             // act
-            sut.CreateBooking(new BookingService.CreateBookingRequest(id));
+            sut.CreateBooking(new BookingService.CreateBookingRequest(id, "jason"));
 
             var booking = bookingRepository.GetById(id);
 
             // assert
-            booking.Should().NotBeNull();
+            booking.Id.Should().Be(id);
         }
     }
 }
