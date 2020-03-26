@@ -31,7 +31,7 @@ namespace DependencyInjectionDemo.Domain.Version2
         private PaymentGateway paymentGateway;
 
         // expose the payment gateway to allow testing.
-        public PaymentGateway PaymentGateway { get { return paymentGateway; } }
+       // public PaymentGateway PaymentGateway { get { return paymentGateway; } }
 
         public BookingService(PaymentGateway paymentGateway)
         {
@@ -60,6 +60,8 @@ namespace DependencyInjectionDemo.Domain.Version2
 
             TotalPayments += amount;
             // do the hard work
+            // send by http/tcp
+
             return new CapturePaymentResponse {
                 Result = CapturePaymentResponse.CapturePaymentResult.Success
             };

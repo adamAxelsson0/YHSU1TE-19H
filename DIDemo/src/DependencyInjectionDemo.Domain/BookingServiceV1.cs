@@ -31,12 +31,16 @@ namespace DependencyInjectionDemo.Domain.Version1
         // expose the payment gateway to allow testing.
         public PaymentGateway PaymentGateway { get { return paymentGateway; }}
 
+        public int Add(int i, int j)
+        {
+            return i + j;
+        }
         public void CreateBooking(CreateBookingRequest request)
         {
             // calculate price
 
             // if booking is successful, capture payment
-            paymentGateway.CapturePayment(10);
+           paymentGateway.CapturePayment(10);
         }
     }
 

@@ -51,7 +51,6 @@ namespace DependencyInjectionDemo.Domain.Version4
 
     public interface IPaymentGateway 
     {
-        // capture the total payments made to the gateway, to allow testing.
         CapturePaymentResponse CapturePayment(decimal amount);
     }
 
