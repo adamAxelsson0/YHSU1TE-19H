@@ -4,16 +4,23 @@ using System.Linq;
 
 namespace Lab04.Domain
 {
+    // interface to unmanaged dependency
+    public interface IPaymentGateway 
+    {
+        void CapturePayment();
+    }
+
     // Orchestration
     public class BookingService
     {
         // private - we don't need to access it externally.
         private BookingRepository repository;
-
+        private readonly IPaymentGateway paymentGateway;
         // dependency injection of repository.
-        public BookingService(BookingRepository repository)
+        public BookingService(BookingRepository repository, IPaymentGateway paymentGateway)
         {
             this.repository = repository;
+            this.paymentGateway = paymentGateway;
         }
 
         // create a new booking and persist it to our fake database.
@@ -29,8 +36,9 @@ namespace Lab04.Domain
 
             // assume everything is ok with the booking
             // usually do more things here
+            paymentGateway.CapturePayment();
 
-            repository.Add(new Booking(request.Id));
+            repository.AddBooking(new Booking(request.Id));
         }
 
         // Input parameters to method CreateBooking
@@ -64,14 +72,14 @@ namespace Lab04.Domain
     {
         // the actual data store (fake).
         // it's private because we want to control what the caller may do.
-        private List<Booking> bookings {get;set;} = new List<Booking>();
+        public List<Booking> bookings {get;set;} = new List<Booking>();
 
         // persists the domain object to the data store.
-        public void Add(Booking bookingToAdd) {
+        public void AddBooking(Booking bookingToAdd) {
             this.bookings.Add(bookingToAdd);
         }
 
-        // this method is not required by our service, but is required to be
+        // this method is not required by our service (yet), but is required to be
         // able to test. this is a concession but it's difficult (impossible)
         // to avoid.
         public Booking GetById(string id)
