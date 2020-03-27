@@ -29,7 +29,7 @@ namespace Lab04.Domain.Tests
             booking.Id.Should().Be(id);
         }
 
-        //[Fact] // behavioural or communication (white box)
+        [Fact] // behavioural or communication (white box)
         public void Successful_booking_should_capture_payment()
         {
             // arrange
@@ -49,23 +49,24 @@ namespace Lab04.Domain.Tests
             A.CallTo(() => paymentGateway.CapturePayment(A<decimal>.Ignored)).MustHaveHappened();
         }
 
-        //[Fact] // behavioural or communication (white box)
+        [Fact] // behavioural or communication (white box)
         public void Should_use_total_price_from_price_service()
         {
             // arrange
-            var auto = new AutoFake();
-            var priceCalculator = auto.Resolve<IPriceCalculator>();
-            var paymentGateway = auto.Resolve<IPaymentGateway>();
-            auto.Provide(this.mongoClient);
-
             var id = Guid.NewGuid().ToString();
+            // managed dependency - concrete instance
+            var bookingRepository = new BookingRepositoryMongoDB(this.mongoClient);
+            // unmanaged dependency - interface
+            var priceCalculator = A.Fake<IPriceCalculator>();
+            var paymentGateway = A.Fake<IPaymentGateway>();
 
+            var sut = new BookingService(bookingRepository, paymentGateway, priceCalculator);
+            
             // use price calculator as stub
             A.CallTo(() => priceCalculator
-                .GetPriceForBookingWith(A<int>.Ignored, A<int>.Ignored, A<DateTime>.Ignored))
+                .GetPriceForBookingWith(A<int>.Ignored, A<int>.Ignored))
                 .Returns(100);
 
-            var sut = auto.Resolve<BookingService>();
 
             // act
             sut.CreateBooking(new BookingService.CreateBookingRequest(id, "jason"));

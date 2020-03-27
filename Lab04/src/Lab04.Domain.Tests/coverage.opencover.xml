@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="46" visitedSequencePoints="45" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="97.82" branchCoverage="50" maxCyclomaticComplexity="12" minCyclomaticComplexity="12" visitedClasses="4" numClasses="4" visitedMethods="11" numMethods="11" />
   <Modules>
-    <Module hash="9DBA7F0C-FE53-424E-8990-C9600D828347">
+    <Module hash="CB371D62-3E7C-44FB-8A4F-737D23795348">
       <ModulePath>Lab04.Domain.dll</ModulePath>
-      <ModuleTime>2020-03-27T01:17:03</ModuleTime>
+      <ModuleTime>2020-03-27T01:20:57</ModuleTime>
       <ModuleName>Lab04.Domain</ModuleName>
       <Files>
         <File uid="1" fullPath="/Users/jasonwhetton/Source/repos/teaching/YHSU1TE-19H/Lab04/src/Lab04.Domain/BookingRepositoryMongoDB.cs" />

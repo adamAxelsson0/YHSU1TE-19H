@@ -7,7 +7,7 @@ namespace Lab04.Domain
     // interface to unmanaged dependency
     public interface IPriceCalculator 
     {
-        decimal GetPriceForBookingWith(int userId, int locationId, DateTime bookingDate);
+        decimal GetPriceForBookingWith(int userId, int locationId);
     }
 
     // interface to unmanaged dependency
@@ -46,7 +46,7 @@ namespace Lab04.Domain
                 throw new InvalidOperationException("You don't have permission.");
 
             // get the price from the price calculator
-            var totalAmount = priceCalculator.GetPriceForBookingWith(1, 2, DateTime.Now);
+            var totalAmount = priceCalculator.GetPriceForBookingWith(1, 2);
 
             // assume everything is ok with the booking
             // usually do more things here
