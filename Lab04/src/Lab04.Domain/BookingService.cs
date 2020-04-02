@@ -13,7 +13,7 @@ namespace Lab04.Domain
     // interface to unmanaged dependency
     public interface IPaymentGateway 
     {
-        void CapturePayment(decimal totalAmount);
+        bool CapturePayment(decimal totalAmount);
     }
 
     // Orchestration
@@ -50,9 +50,10 @@ namespace Lab04.Domain
 
             // assume everything is ok with the booking
             // usually do more things here
-            paymentGateway.CapturePayment(totalAmount);
+            var capturePaymentResult = paymentGateway.CapturePayment(totalAmount);
 
-            repository.AddBooking(new Booking(request.Id));
+            if (capturePaymentResult == true)
+                repository.AddBooking(new Booking(request.Id));
         }
 
         // Input parameters to method CreateBooking
