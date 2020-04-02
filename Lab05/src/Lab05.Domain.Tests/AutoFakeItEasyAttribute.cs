@@ -13,4 +13,5 @@ namespace Lab05.Domain.Tests
 
         }
     }
+    }
 }
