@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession>
+  <Summary numSequencePoints="128" visitedSequencePoints="31" numBranchPoints="10" visitedBranchPoints="7" sequenceCoverage="24.21" branchCoverage="70" maxCyclomaticComplexity="18" minCyclomaticComplexity="10" visitedClasses="3" numClasses="13" visitedMethods="12" numMethods="36" />
+  <Modules>
+    <Module hash="719AF639-E79D-4491-8293-4286D1D949BE">
+      <ModulePath>Lab05.Domain.dll</ModulePath>
+      <ModuleTime>2020-04-02T10:03:01</ModuleTime>
+      <ModuleName>Lab05.Domain</ModuleName>
+      <Files>
+        <File uid="1" fullPath="/Users/jasonwhetton/Source/repos/teaching/YHSU1TE-19H-RESULTS/Lab05/src/Lab05.Domain/TestClass.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>Lab05.Domain.BookingService</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab05.Domain.BookingService::CreateBooking()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="22" ec="1" el="24" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab05.Domain.BookingService::.ctor(Lab05.Domain.IPaymentGateway)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="19" ordinal="3" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="16" ec="1" el="19" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="23" visitedSequencePoints="22" numBranchPoints="8" visitedBranchPoints="7" sequenceCoverage="95.65" branchCoverage="87.5" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="8" numMethods="8" />
+          <FullName>Lab05.Domain.TestClass</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab05.Domain.TestClass::Test1(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="31" ordinal="0" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="33" ordinal="1" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="31" ec="1" el="33" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab05.Domain.TestClass::Test2(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="36" ordinal="0" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="38" ordinal="1" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="36" ec="1" el="38" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="50" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Lab05.Domain.TestClass::Test3(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="41" ordinal="0" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="42" ordinal="1" sl="42" sc="1" el="42" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="43" ordinal="2" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="42" ordinal="0" path="0" offset="3" offsetend="5" sl="42" fileid="1" />
+                <BranchPoint vc="0" uspid="42" ordinal="1" path="1" offset="3" offsetend="15" sl="42" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="41" ec="1" el="43" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab05.Domain.TestClass::CreateBooking(Lab05.Domain.CreateBookingRequest)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="46" ordinal="0" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="48" ordinal="1" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="0" p8:type="SequencePoint" ordinal="3" offset="3" sc="0" sl="46" ec="1" el="48" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab05.Domain.TestClass::TestDateTime(System.DateTime)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="51" ordinal="0" sl="51" sc="1" el="51" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="53" ordinal="1" sl="53" sc="1" el="53" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="0" p8:type="SequencePoint" ordinal="4" offset="4" sc="0" sl="51" ec="1" el="53" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Lab05.Domain.TestClass::TestYearIs2018(System.DateTime)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="56" ordinal="0" sl="56" sc="1" el="56" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="57" ordinal="1" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="58" ordinal="2" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="5" offset="5" sc="0" sl="56" ec="1" el="58" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="83.33" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="83.33" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Lab05.Domain.TestClass::StringsAreUniqe(System.Collections.Generic.IEnumerable`1&lt;System.String&gt;)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="61" ordinal="0" sl="61" sc="1" el="61" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="62" ordinal="1" sl="62" sc="1" el="62" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="4" uspid="63" ordinal="2" sl="63" sc="1" el="63" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="64" ordinal="3" sl="64" sc="1" el="64" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="66" ordinal="4" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="67" ordinal="5" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="62" ordinal="0" path="0" offset="8" offsetend="10" sl="62" fileid="1" />
+                <BranchPoint vc="1" uspid="62" ordinal="1" path="1" offset="8" offsetend="33" sl="62" fileid="1" />
+                <BranchPoint vc="1" uspid="62" ordinal="2" path="0" offset="44" offsetend="46" sl="62" fileid="1" />
+                <BranchPoint vc="1" uspid="62" ordinal="3" path="1" offset="44" offsetend="69" sl="62" fileid="1" />
+                <BranchPoint vc="1" uspid="62" ordinal="4" path="0" offset="80" offsetend="82" sl="62" fileid="1" />
+                <BranchPoint vc="1" uspid="62" ordinal="5" path="1" offset="80" offsetend="105" sl="62" fileid="1" />
+              </BranchPoints>
+              <MethodPoint vc="5" uspid="0" p8:type="SequencePoint" ordinal="6" offset="6" sc="0" sl="61" ec="1" el="67" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Int32 Lab05.Domain.TestClass::TwelveStrings(System.Collections.Generic.IEnumerable`1&lt;System.String&gt;)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="70" ordinal="0" sl="70" sc="1" el="70" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="71" ordinal="1" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="72" ordinal="2" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="70" ec="1" el="72" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="2" />
+          <FullName>Lab05.Domain.CreateBookingRequest</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Lab05.Domain.CreateBookingRequest::get_Name()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="77" ordinal="0" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="77" ec="1" el="77" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Lab05.Domain.CreateBookingRequest::get_Location()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="78" ordinal="0" sl="78" sc="1" el="78" ec="2" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="78" ec="1" el="78" bec="0" bev="0" fileid="1" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="7F6F0193-BC54-4E98-BE8E-0F6CFE3588B4">
+      <ModulePath>Lab04.Domain.Tests.dll</ModulePath>
+      <ModuleTime>2020-04-02T10:03:01</ModuleTime>
+      <ModuleName>Lab04.Domain.Tests</ModuleName>
+      <Files>
+        <File uid="2" fullPath="/Users/jasonwhetton/.nuget/packages/microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0/Microsoft.NET.Test.Sdk.Program.cs" />
+        <File uid="3" fullPath="/Users/jasonwhetton/Source/repos/teaching/YHSU1TE-19H-RESULTS/Lab04/src/Lab04.Domain.Tests/BookingServiceTests.cs" />
+        <File uid="4" fullPath="/Users/jasonwhetton/Source/repos/teaching/YHSU1TE-19H-RESULTS/Lab04/src/Lab04.Domain.Tests/BookingServiceTestsWithSharedFixture.cs" />
+        <File uid="5" fullPath="/Users/jasonwhetton/Source/repos/teaching/YHSU1TE-19H-RESULTS/Lab04/src/Lab04.Domain.Tests/MongoDbIntegrationTest.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>AutoGeneratedProgram</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void AutoGeneratedProgram::Main(System.String[])</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="4" ordinal="0" sl="4" sc="1" el="4" ec="2" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="4" ec="1" el="4" bec="0" bev="0" fileid="2" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>Lab04.Domain.Tests.BookingServiceTests</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.Tests.BookingServiceTests::Successful_booking_should_be_persisted()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="14" ordinal="1" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="15" ordinal="2" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="16" ordinal="3" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="19" ordinal="4" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="21" ordinal="5" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="24" ordinal="6" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="25" ordinal="7" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="12" ec="1" el="25" bec="0" bev="0" fileid="3" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="18" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Lab04.Domain.Tests.BookingServiceTestsWithSharedFixture</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.Tests.BookingServiceTestsWithSharedFixture::Successful_booking_should_be_persisted()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="17" ordinal="0" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="19" ordinal="1" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="20" ordinal="2" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="21" ordinal="3" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="26" ordinal="4" sl="26" sc="1" el="26" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="29" ordinal="5" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="30" ordinal="6" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="17" ec="1" el="30" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.Tests.BookingServiceTestsWithSharedFixture::Successful_booking_should_not_be_persisted()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="34" ordinal="0" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="36" ordinal="1" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="37" ordinal="2" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="38" ordinal="3" sl="38" sc="1" el="38" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="43" ordinal="4" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="46" ordinal="5" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="47" ordinal="6" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="34" ec="1" el="47" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.Tests.BookingServiceTestsWithSharedFixture::.ctor(Lab04.Domain.Tests.MongoDbFixture)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="10" ordinal="0" sl="10" sc="1" el="10" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="11" ordinal="1" sl="11" sc="1" el="11" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="12" ordinal="2" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="13" ordinal="3" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="10" ec="1" el="13" bec="0" bev="0" fileid="4" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Lab04.Domain.Tests.MongoDbIntegrationTest</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.Tests.MongoDbIntegrationTest::Dispose()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="19" ordinal="0" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="20" ordinal="1" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="21" ordinal="2" sl="21" sc="1" el="21" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="19" ec="1" el="21" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.Tests.MongoDbIntegrationTest::.ctor()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="13" ordinal="1" sl="13" sc="1" el="13" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="14" ordinal="2" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="15" ordinal="3" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="16" ordinal="4" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="12" ec="1" el="16" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="13" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Lab04.Domain.Tests.MongoDbFixture</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>MongoDB.Driver.IMongoClient Lab04.Domain.Tests.MongoDbFixture::get_MongoClient()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="27" ordinal="0" sl="27" sc="1" el="27" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="27" ec="1" el="27" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.Tests.MongoDbFixture::Dispose()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="44" ordinal="0" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="45" ordinal="1" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="46" ordinal="2" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="44" ec="1" el="46" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.Tests.MongoDbFixture::.ctor()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="29" ordinal="0" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="30" ordinal="1" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="31" ordinal="2" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="32" ordinal="3" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="35" ordinal="4" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="36" ordinal="5" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="37" ordinal="6" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="40" ordinal="7" sl="40" sc="1" el="40" ec="2" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="41" ordinal="8" sl="41" sc="1" el="41" ec="2" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="29" ec="1" el="41" bec="0" bev="0" fileid="5" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="7BD8E753-C1E1-4AAB-A030-CEFFCBAC93A2">
+      <ModulePath>Lab04.Domain.dll</ModulePath>
+      <ModuleTime>2020-04-02T10:03:01</ModuleTime>
+      <ModuleName>Lab04.Domain</ModuleName>
+      <Files>
+        <File uid="6" fullPath="/Users/jasonwhetton/Source/repos/teaching/YHSU1TE-19H-RESULTS/Lab04/src/Lab04.Domain/BookingRepositoryMongoDB.cs" />
+        <File uid="7" fullPath="/Users/jasonwhetton/Source/repos/teaching/YHSU1TE-19H-RESULTS/Lab04/src/Lab04.Domain/BookingService.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="16" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Lab04.Domain.BookingRepositoryMongoDB</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.BookingRepositoryMongoDB::Add(Lab04.Domain.Booking)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="22" ordinal="0" sl="22" sc="1" el="22" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="24" ordinal="2" sl="24" sc="1" el="24" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="25" ordinal="3" sl="25" sc="1" el="25" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="22" ec="1" el="25" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Lab04.Domain.Booking Lab04.Domain.BookingRepositoryMongoDB::GetById(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="31" ordinal="0" sl="31" sc="1" el="31" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="32" ordinal="1" sl="32" sc="1" el="32" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="33" ordinal="2" sl="33" sc="1" el="33" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="34" ordinal="3" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="36" ordinal="4" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="37" ordinal="5" sl="37" sc="1" el="37" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="31" ec="1" el="37" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.BookingRepositoryMongoDB::.ctor(MongoDB.Driver.IMongoClient)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="14" ordinal="0" sl="14" sc="1" el="14" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="15" ordinal="1" sl="15" sc="1" el="15" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="18" ordinal="3" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="19" ordinal="4" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="20" ordinal="5" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="14" ec="1" el="20" bec="0" bev="0" fileid="6" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="13" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Lab04.Domain.BookingService</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.BookingService::CreateBooking(Lab04.Domain.BookingService/CreateBookingRequest)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="23" ordinal="0" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="29" ordinal="1" sl="29" sc="1" el="29" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="30" ordinal="2" sl="30" sc="1" el="30" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="35" ordinal="3" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="36" ordinal="4" sl="36" sc="1" el="36" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="29" ordinal="0" path="0" offset="18" offsetend="20" sl="29" fileid="7" />
+                <BranchPoint vc="0" uspid="29" ordinal="1" path="1" offset="18" offsetend="31" sl="29" fileid="7" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="23" ec="1" el="36" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Boolean Lab04.Domain.BookingService::HasPermission(System.String)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="54" ordinal="0" sl="54" sc="1" el="54" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="55" ordinal="1" sl="55" sc="1" el="55" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="57" ordinal="2" sl="57" sc="1" el="57" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="58" ordinal="3" sl="58" sc="1" el="58" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="54" ec="1" el="58" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.BookingService::.ctor(Lab04.Domain.BookingRepositoryMongoDB)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="16" ordinal="0" sl="16" sc="1" el="16" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="17" ordinal="1" sl="17" sc="1" el="17" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="18" ordinal="2" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="19" ordinal="3" sl="19" sc="1" el="19" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="16" ec="1" el="19" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Lab04.Domain.BookingService/CreateBookingRequest</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Lab04.Domain.BookingService/CreateBookingRequest::get_Id()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="43" ordinal="0" sl="43" sc="1" el="43" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="43" ec="1" el="43" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Lab04.Domain.BookingService/CreateBookingRequest::get_RequestedBy()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="44" ordinal="0" sl="44" sc="1" el="44" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="44" ec="1" el="44" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.BookingService/CreateBookingRequest::.ctor(System.String,System.String)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="45" ordinal="0" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="46" ordinal="1" sl="46" sc="1" el="46" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="47" ordinal="2" sl="47" sc="1" el="47" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="48" ordinal="3" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="49" ordinal="4" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="45" ec="1" el="49" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="3" />
+          <FullName>Lab04.Domain.BookingRepository</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Collections.Generic.List`1&lt;Lab04.Domain.Booking&gt; Lab04.Domain.BookingRepository::get_bookings()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="69" ordinal="0" sl="69" sc="1" el="69" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="69" ec="1" el="69" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.BookingRepository::Add(Lab04.Domain.Booking)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="72" ordinal="0" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="73" ordinal="1" sl="73" sc="1" el="73" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="74" ordinal="2" sl="74" sc="1" el="74" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="72" ec="1" el="74" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>Lab04.Domain.Booking Lab04.Domain.BookingRepository::GetById(System.String)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="80" ordinal="0" sl="80" sc="1" el="80" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="81" ordinal="1" sl="81" sc="1" el="81" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="82" ordinal="2" sl="82" sc="1" el="82" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="2" offset="2" sc="0" sl="80" ec="1" el="82" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Lab04.Domain.Booking</FullName>
+          <Methods>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.String Lab04.Domain.Booking::get_Id()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="91" ordinal="0" sl="91" sc="1" el="91" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="91" ec="1" el="91" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
+              <Name>System.Void Lab04.Domain.Booking::.ctor(System.String)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="94" ordinal="0" sl="94" sc="1" el="94" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="95" ordinal="1" sl="95" sc="1" el="95" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="96" ordinal="2" sl="96" sc="1" el="96" ec="2" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="97" ordinal="3" sl="97" sc="1" el="97" ec="2" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="94" ec="1" el="97" bec="0" bev="0" fileid="7" xmlns:p8="xsi" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
